@@ -57,6 +57,15 @@
             border-bottom: 1px solid rgb(190, 190, 190);
             font-size: 14px;
             color: #666;
+
+        }
+
+        .daohang a {
+            text-decoration: none;
+            color: brown;
+            display: block;
+            font-size: 16px;
+            text-align: center;
         }
 
         @media (max-width: 600px) {
@@ -81,6 +90,13 @@
                 margin: 0 0 8px;
                 flex: auto;
             }
+
+        }
+
+        div ul {
+            list-style: none;
+            line-height: 48px;
+
         }
     </style>
 </head>
@@ -97,17 +113,19 @@
 
         <!-- 导航栏 -->
         <div class="flex1">
-            <div class="daohang">导航</div>
-            <div class="daohang">导航</div>
-            <div class="daohang">导航</div>
-            <div class="daohang">导航</div>
-            <div class="daohang">导航</div>
+            <div class="daohang"><a href="#">首页</a></div>
+            <div class="daohang"><a href="#">网盘</a></div>
+            <div class="daohang"><a href="../musicplayer/Untitled-1.html">音乐</a></div>
+            <div class="daohang"><a href="#">TBD</a></div>
+            <div class="daohang"><a href="#">TBD</a></div>
         </div>
     </div>
     <!--  主区域 -->
     <div class="flex1 flex column">
         <!-- 头部栏 -->
-        <div style="height: 60px;z-index: 1;" class="baise yinying">
+        <div style="height: 60px;z-index: 1;" class="baise yinying row">
+
+
         </div>
         <!-- 内容区 -->
         <div style="overflow: auto;" class="flex1 flex neirong">
