@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadow's preferable music</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            border: none;
+        }
+
+        #zzsc {
+            width: 920px;
+            margin: 40px auto;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="zzsc.js"></script>
+</head>
+
+<body>
+    
+    
+        <div id="zzsc"></div>
+
+        </div>
+
+        <link rel="stylesheet" href="Untitled-2.css">
+        <div id="songstatus">
+
+            <div id="songstatus_pic" onclick="control(songNum)">
+
+                <img src="images/下载.png" id="status_pic">
+                <!--黑胶唱片-->
+
+                <img src="images/下载 (1).png" id="discpointer_pic">
+                <!--指针-->
+
+            </div>
+
+            <div id="songslist">
+
+                <li id="songName1" style="margin-top: 20px;">
+
+                    <span onclick="start(1)">沙发上的白日梦 <h6>作者：灵魂沙发soulfa</h6></span>
+
+                    <audio src="music/沙发上的白日梦.mp3" preload loop id="music1" class="music" /></audio>
+
+                </li>
+
+                <li id="songName2">
+
+                    <span onclick="start(2)">有暖气 <h6>作者：橘子海乐队</h6></span>
+
+                    <audio src="music/有暖气.m4a" preload loop id="music2" class="music"></audio>
+
+                </li>
+
+                <li id="songName3">
+
+                    <span onclick="start(3)">my jinji <h6>作者：落日飞车</h6></span>
+
+                    <audio src="music/jinji.mp3" preload loop id="music3" class="music"></audio>
+
+                </li>
+
+
+
+                <div id="playStatus" style="border-color: blue;">
+
+                    <img src="http://p1.music.126.net/GLmuPSdXsyvwO_RfbaVeYQ==/109951164512005176.jpg?param=50y50"
+                        id="songCover" id="music1" />
+                    <img src="http://p1.music.126.net/GLmuPSdXsyvwO_RfbaVeYQ==/109951164512005176.jpg?param=50y50"
+                        id="songCover" id="music2" />
+
+                </div>
+
+            </div>
+
+        </div>
+        <script type="text/javascript" src="Untitled-3.js"></script>
+    </body>
+
+</html>
